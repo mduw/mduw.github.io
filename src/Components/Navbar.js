@@ -43,7 +43,7 @@ const NavigationBar = () => {
           </a>
         </li>
         <li className="hire-me">
-          <a href="#contact">Hire me</a>
+          <a href="#contact" onClick={showHideNavbar}>Hire me</a>
         </li>
       </ul>
     </nav>
