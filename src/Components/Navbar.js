@@ -3,13 +3,16 @@ import React, { Component, useState } from "react";
 const NavigationBar = () => {
   const [open, setOpen] = useState(false);
   const showHideNavbar = () => {
-    const navbar = document.getElementById("nav");
-    if (open) {
-      navbar.style.display = "none";
-      setOpen(!open);
-    } else {
-      navbar.style.display = "block";
-      setOpen(!open);
+    const mediaQuery = window.matchMedia("screen and (max-width: 767px)");
+    if (mediaQuery.matches) {
+      const navbar = document.getElementById("nav");
+      if (open) {
+        navbar.style.display = "none";
+        setOpen(!open);
+      } else {
+        navbar.style.display = "block";
+        setOpen(!open);
+      }
     }
   };
   return (
@@ -43,7 +46,9 @@ const NavigationBar = () => {
           </a>
         </li>
         <li className="hire-me">
-          <a href="#contact" onClick={showHideNavbar}>Hire me</a>
+          <a href="#contact" onClick={showHideNavbar}>
+            Hire me
+          </a>
         </li>
       </ul>
     </nav>
