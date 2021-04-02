@@ -7,65 +7,63 @@ import ResumePDF from "../assets/images/MitchellDang_resume.pdf";
 const Resume = ({ data }) => {
   const [resumePreview, setResumePreview] = useState(false);
 
-  if (data) {
-    var education = data.education.map(function (edu) {
-      return (
-        <Grid container key={edu.school} style={{ marginTop: "3rem" }}>
-          <Grid item xs={12}>
-            <Grid item container xs={12}>
-              <Grid item xs={12} md={9}>
-                <h3>{edu.school}</h3>
-                <p className="info">{edu.degree}</p>
-                <p className="info-details">{edu.description}</p>
-              </Grid>
-              <Grid item xs={12} md={3} className="resume-year">
-                <h4>{edu.graduated}</h4>
-              </Grid>
+  const education = data.education.map((edu) => {
+    return (
+      <Grid container key={edu.school} style={{ marginTop: "3rem" }}>
+        <Grid item xs={12}>
+          <Grid item container xs={12}>
+            <Grid item xs={12} md={9}>
+              <h3>{edu.school}</h3>
+              <p className="info">{edu.degree}</p>
+              <p className="info-details">{edu.description}</p>
+            </Grid>
+            <Grid item xs={12} md={3} className="resume-year">
+              <h4>{edu.graduated}</h4>
             </Grid>
           </Grid>
         </Grid>
-      );
-    });
+      </Grid>
+    );
+  });
 
-    var work = data.work.map(function (job) {
-      return (
-        <Grid container key={job.company}>
-          <Grid item xs={12}>
-            <Grid item container>
-              <Grid item xs={12} md={9}>
-                <h3>{job.title}</h3>
-              </Grid>
-              <Grid item xs={12} md={3} className="resume-year">
-                <h4>{job.years}</h4>
-              </Grid>
+  const work = data.work.map((job) => {
+    return (
+      <Grid container key={job.company}>
+        <Grid item xs={12}>
+          <Grid item container>
+            <Grid item xs={12} md={9}>
+              <h3>{job.title}</h3>
             </Grid>
-            <p className="info">{job.company}</p>
+            <Grid item xs={12} md={3} className="resume-year">
+              <h4>{job.years}</h4>
+            </Grid>
+          </Grid>
+          <p className="info">{job.company}</p>
 
-            <p>{job.description}</p>
-          </Grid>
+          <p>{job.description}</p>
         </Grid>
-      );
-    });
+      </Grid>
+    );
+  });
 
-    var skills = data.skills.map(function (skill) {
-      const className = "bar-expand " + skill.name.toLowerCase();
-      return (
-        <Grid container spacing={2}>
-          <Grid item xs={12} sm={3}>
-            <em>{skill.name}</em>
-          </Grid>
-          <Grid item xs={12} sm={9}>
-            <li key={skill.name}>
-              {/* <span style={{ width: skill.level}} className="bar-expand"></span> */}
-              <div className="progress-bar">
-                <div style={{ width: `${skill.level}` }}></div>
-              </div>
-            </li>
-          </Grid>
+  var skills = data.skills.map(function (skill) {
+    const className = "bar-expand " + skill.name.toLowerCase();
+    return (
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={3}>
+          <em>{skill.name}</em>
         </Grid>
-      );
-    });
-  }
+        <Grid item xs={12} sm={9}>
+          <li key={skill.name}>
+            <div className="progress-bar">
+              <div style={{ width: `${skill.level}` }}></div>
+            </div>
+          </li>
+        </Grid>
+      </Grid>
+    );
+  });
+
   const PreviewResumeButton = () => {
     return resumePreview ? (
       <button
@@ -153,11 +151,6 @@ const Resume = ({ data }) => {
           </Grid>
 
           <Grid item container className="section-body">
-            {/* <p>
-              The main skill sets below outline the variety of skills performed
-              within my current role as Senior Photographer at Block Media in
-              Paris, France..
-            </p> */}
             <Grid className="bars">
               <Grid className="skills">{skills}</Grid>
             </Grid>

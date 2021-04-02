@@ -1,24 +1,24 @@
 {
-  "name": "reactapp",
+  "name": "Mitchell Dang Personal Website",
   "version": "1.0.0",
   "private": true,
-  "description": "Single page resume using React",
+  "description": "Personal website with React, Google Apps Script, material-ui",
   "author": {
-    "name": "MD",
-    "email": "test@email.com"
+    "name": "Mitchell Dang",
+    "email": "mlcdang@uw.edu"
   },
   "keywords": [
     "React",
-    "single-page",
-    "scroll",
-    "contactForm"
+    "Mitchell",
+    "profile",
+    "resume",
+    "website"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:mduw/reactapp.git"
+    "url": "git@github.com:mduw/mduw.github.io.git"
   },
   "homepage": "https://mduw.github.io/",
-  "license": "ISC",
   "devDependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",

@@ -7,7 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const Projects = ({ data }) => {
-  var projectItem = data.map((item) => {
+  const projectItem = data.map((item) => {
     const { id, date, title, subTitle, description, category, url } = item;
     return (
       <VerticalTimelineElement
