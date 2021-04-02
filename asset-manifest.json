@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/static/js/main.c1082e8e.chunk.js",
+    "main.js.map": "/static/js/main.c1082e8e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d84f2cad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d84f2cad.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.9a902544.chunk.js": "/static/js/2.9a902544.chunk.js",
+    "static/js/2.9a902544.chunk.js.map": "/static/js/2.9a902544.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2aa38b9c.chunk.css.map": "/static/css/2.2aa38b9c.chunk.css.map",
+    "static/js/2.9a902544.chunk.js.LICENSE.txt": "/static/js/2.9a902544.chunk.js.LICENSE.txt",
+    "static/media/MitchellDang_resume.15127803.pdf": "/static/media/MitchellDang_resume.15127803.pdf",
+    "static/media/profile.437554bd.jpg": "/static/media/profile.437554bd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d84f2cad.js",
+    "static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.9a902544.chunk.js",
+    "static/js/main.c1082e8e.chunk.js"
+  ]
+}
