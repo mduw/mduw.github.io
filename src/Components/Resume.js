@@ -13,7 +13,7 @@ const Resume = ({ data }) => {
         <Grid item xs={12}>
           <Grid item container xs={12}>
             <Grid item xs={12} md={9}>
-              <h3>{edu.school}</h3>
+              <h4>{edu.school}</h4>
               <p className="info">{edu.degree}</p>
               <p className="info-details">{edu.description}</p>
             </Grid>
@@ -32,7 +32,7 @@ const Resume = ({ data }) => {
         <Grid item xs={12}>
           <Grid item container>
             <Grid item xs={12} md={9}>
-              <h3>{job.title}</h3>
+              <h4>{job.title}</h4>
             </Grid>
             <Grid item xs={12} md={3} className="resume-year">
               <h4>{job.years}</h4>
@@ -124,7 +124,7 @@ const Resume = ({ data }) => {
         <Grid container className="work" id="resume-work">
           <Grid item xs={12}>
             <h1>
-              <span>Work</span>
+              <span>Experience</span>
             </h1>
           </Grid>
           <Grid item container className="section-body">
