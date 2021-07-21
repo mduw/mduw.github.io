@@ -2,9 +2,9 @@
   "main": {
     "name":"Mitchell L. Dang",
     "occupation":"PhotoJournalist and Documentary Photographer. ",
-    "description":"Hi! I'm Mitchell, a growing CS major at University of Washington Bothell, Fullstack developer, and mountain biker.",
+    "description":"Hi! I'm Mitchell, a growing Fullstack developer and a biker. I am driven by user experience and engineering solutions that support/enhance CompEdu and connect people",
     "image":"profile.jpg",
-    "skills": "ReactJS, HTML, CSS/SCSS, Python, Stripe, Django, NodeJS, PostgreSQL, MongoDB, AWS, Azure, C#/.NET, Google Apps Script",
+    "skills": "MERN stack, PERN stack, JavaScript(ES6), HTML5, SASS, Python/Django, Stripe, PostgreSQL, Containerization, MongoDB, AWS, Azure, C#/.NET, Google Apps Script, ...",
     "email": "mlcdang@uw.edu",
     "resumedownload":"#"
   },
@@ -28,41 +28,45 @@
   "resume":{
     "education":[
       {
-        "school":"Universityf of Washington, Bothell",
+        "school":"University of Washington, Bothell",
         "degree":"Bachelor of Science in Computer Science & Software Engineering",
         "graduated":"March 2021",
-        "description":"Studies applied computer science and software design"
+        "description":""
       },
       {
         "school":"Cascadia College",
         "degree":"Associate Degree in Integrated Studies, President’s Honor Graduate.",
         "graduated":"June 2019",
-        "description":"Associate degree in Integrated Studies and computer science fundamentals"
+        "description":""
       }
     ],
     "work":[
       {
         "company":"KyFlex",
         "title":"Frontend Developer",
-        "years":"Dec 2020 - present",
-        "description":"Attend agile development cycle. Design intuitive UI/UX. Utilize React.js to develop features for booking system and payment that communicate with the backend written in Django. Report bugs and collaborate with the backend team to fix them. Technologies: Git, Stripe, React.js, HTML, Sass, Photoshop, Figma, APIs, Google Cloud Platform, Python."
+        "years":"Jan 2021 - Present",
+        "description":"Attend agile development cycle to design and implement intuitive UI/UX solutions. Release features for booking, payment system, user dashboard...  Contribute to the backend written in Python/Django to support frontend features. Technologies: Git/GitHub, Stripe, ReactJS, HTML5, SASS, Python, PostgreSQL, Photoshop, Figma, Google Cloud Platform."
       },
       {
         "company":"Association for Computing Machinery Chapter at University of Washington Bothell",
         "title":"Web developer | Event Coordinator",
         "years":"March 2020 - June 2021",
-        "description":"Maintain and develop website for club events. Technologies: Git, HTML, XML, CSS, JavaScript, Bootstrap 4.5, Git. Co-host UWB ACM – Allen Institute for Brain Science programming contest UWBCode 2020 on HackerRank with 100+ contestants from colleges in the Pacific Northwest."
+        "description":"Developed club affiliated websites at uwbacm.com, uwbhacks.com, and competitiveprog.uwbacm.com. Technologies: Git, HTML5, XML, CSS/SCSS, JavaScript, Bootstrap 4.5, Git. Co-hosted UWBACM–Allen Institute for Brain Science programming contest UWBCode 2020 on HackerRank with 100+ college students in the Pacific Northwest."
         
       }
     ],
     "skills":[
       {
         "name":"HTML",
-        "level":"99%"
+        "level":"90%"
       },
       {
         "name": "Sass/CSS",
-        "level": "85%"
+        "level": "75%"
+      },
+      {
+        "name": "JavaScript(ES6)",
+        "level": "75%"
       },
       {
         "name": "AWS",
@@ -73,20 +77,12 @@
         "level": "27%"
       },
       {
-        "name": "JavaScript ES6",
-        "level": "75%"
-      },
-      {
-        "name":"React",
-        "level":"62%"
-      },
-      {
         "name":"Figma",
         "level":"90%"
       },
       {
-        "name":"Django",
-        "level":"35%"
+        "name":"Python/Django",
+        "level":"62%"
       },
       {
         "name":"Database(PostgreSQL, NoSQL)",
@@ -103,10 +99,6 @@
       {
         "name":"C/C++",
         "level":"90%"
-      },
-      {
-        "name":"Python",
-        "level":"45%"
       }
       
     ]

@@ -46,7 +46,7 @@ const Resume = ({ data }) => {
     );
   });
 
-  var skills = data.skills.map(function (skill) {
+  const skills = data.skills.map(function (skill) {
     const className = "bar-expand " + skill.name.toLowerCase();
     return (
       <Grid container spacing={2}>
@@ -146,7 +146,8 @@ const Resume = ({ data }) => {
         <Grid container className="skill" id="resume-skills">
           <Grid item xs={12}>
             <h1>
-              <span>Skills</span>
+              <span>Skills</span><br/>
+              <small>**NOTE: frequently used skills below are displayed in no particular order</small>
             </h1>
           </Grid>
 
