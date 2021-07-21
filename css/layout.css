@@ -370,7 +370,7 @@ ul#nav li.current a {
 #resume .info {
   font: 1.8rem/24px "opensans-regular", serif;
   color: #121212;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 #resume .info-details {
   font-size: 1.7rem;
